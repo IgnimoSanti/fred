@@ -1,0 +1,77 @@
+<input value='Taras' class="firstName" id="first-name" />
+<input value='Sinyakov' class="firstName" id="last-name" />
+<input value='Odessa' class="firstName" id="adress" />
+
+<select id="cities">
+    <option>Kiev</option>
+    <option>Minsk</option>
+    <option selected='selected'>Akapulko</option>
+</select>
+
+<textarea name="my" id="hobies">tennis,js and cofee</textarea>
+
+<div id="container">
+    <img src="https://web-skazki.ru/preview-files/malysh-i-karlson-kotoryy-zhivyet-na-kryshe-x-768.jpg">
+</div>
+
+<h1>Алгоритм действий при попадании в матрицу</h1>
+<ul>
+    <li>успокоится</li>
+    <li>осознать безвыходность</li>
+    <li>принять реальность как должное</li>
+    <li class='importentFonts'> отказаться от прошлого</li>
+    <li>поиск обьекта для взаимодействия</li>
+    <li>выстраивание новых нейро-связей</li>
+    <li>нарабатывание опыта в новых условиях</li>
+</ul>
+
+<style>
+    .importentFonts {
+        color: red; font-size: 20px;
+    }
+</style>
+
+<script>
+var firstNameId = 'first-name';
+var firstNameEl = document.getElementById(firstNameId);
+    
+    var lastNameEl;
+    var lastNameId;
+var adressId;
+var adressEl;
+var citiesId;
+var citiesEl;
+var hobiesId;
+var hobiesEl;
+var containerId;
+var containerEl;
+var containerId = 'container';
+var containerEl = document.getElementById(containerId);
+
+
+
+lastNameId = 'last-name';
+lastNameEl = document.getElementById(lastNameId);
+adressId = 'adress';
+adressEl = document.getElementById(adressId);
+
+citiesId = 'cities';
+citiesEl = document.getElementById(citiesId);
+
+hobiesId = 'hobies';
+hobiesEl = document.getElementById(hobiesId);
+
+
+
+
+//window.alert(firstNameEl.id);
+//window.alert(firstNameEl.value);
+//window.alert(lastNameEl.id);
+//window.alert(lastNameEl.value); 
+//window.alert(adressEl.id);
+//window.alert(adressEl.value); 
+//window.alert(citiesEl.value); 
+//window.alert(hobiesEl.value); 
+window.alert(containerEl.innerHTML); 
+
+</script>
